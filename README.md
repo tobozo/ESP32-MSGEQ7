@@ -15,6 +15,7 @@ Et voilà
 
 <img width=512 src="https://raw.githubusercontent.com/tobozo/ESP32-MSGEQ7/master/doc/m5-proto-hat.jpeg">
 
+
 Proto board Wiring
 ------------------
 
@@ -22,6 +23,11 @@ Proto board Wiring
 
   - Reset and Strobe are connected to OUTPUT pins on the ESP32.
   - Left band and Right band are INPUT pins on the ESP32
+  
+Important note: The example code uses pins 25 and 26 and asumes the internal speaker is removed.
+
+If you aren't planning to do so, just pick two other pins :-)
+
 
 Resources
 ---------
