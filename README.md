@@ -26,7 +26,7 @@ Proto board Wiring
   
 Important note: The example code uses pins 25 and 26 and assumes the internal speaker is removed or had its wires cut.
 
-![image](https://user-images.githubusercontent.com/1893754/76168715-7b3d4380-6172-11ea-919b-8faff68903ef.png)
+![image](https://user-images.githubusercontent.com/1893754/76168734-aa53b500-6172-11ea-80fa-c167b6052f17.png)
 
 If you aren't planning to do so, just pick two other pins :-)
 
