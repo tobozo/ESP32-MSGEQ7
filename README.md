@@ -9,16 +9,16 @@ It was first adapted to work with ESP32-Wrover-Kit instead of Arduino Nano.
 
 The proto shield idea came after observing the dimensions similarities with the M5Stack proto boards.
 
-<img width=512 src=tindie-kit.png>
+<img width=512 src="https://raw.githubusercontent.com/tobozo/ESP32-MSGEQ7/master/doc/tindie-kit.png">
 
 Et voilà 
 
-<img width=512 src=m5-proto-hat.jpeg>
+<img width=512 src="https://raw.githubusercontent.com/tobozo/ESP32-MSGEQ7/master/doc/m5-proto-hat.jpeg">
 
 Proto board Wiring
 ------------------
 
-<img width=512 src=wiring.png>
+<img width=512 src="https://raw.githubusercontent.com/tobozo/ESP32-MSGEQ7/master/doc/wiring.png">
 
   - Reset and Strobe are connected to OUTPUT pins on the ESP32.
   - Left band and Right band are INPUT pins on the ESP32
