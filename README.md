@@ -11,7 +11,7 @@ The proto shield idea came after observing the dimensions similarities with the 
 
 <img width=512 src=tindie-kit.png>
 
-Et voilà
+Et voilà 
 
 <img width=512 src=m5-proto-hat.jpeg>
 
@@ -23,10 +23,13 @@ Proto board Wiring
   - Reset and Strobe are connected to OUTPUT pins on the ESP32.
   - Left band and Right band are INPUT pins on the ESP32
 
+Resources
+---------
+  - https://mix-sig.com/index.php/msgeq7-seven-band-graphic-equalizer-display-filter
+  - [jollyFactory MSGEQ7 Kit](https://www.tindie.com/products/nick64/jf-audio-spectrum-visualizer-board-basic-kit/) 
+
 Credits
 -------
-  - [jollyFactory](https://www.tindie.com/products/nick64/jf-audio-spectrum-visualizer-board-basic-kit/) MSGEQ7 Kit
-  - http://www.instructables.com/id/Arduino-Based-Mini-Audio-Spectrum-Visualizer/
-  - https://github.com/debsahu/ESP32_FFT_Audio_LEDs
-  - https://tronixstuff.files.wordpress.com/2013/01/msgeq7-data-sheet.pdf
-  - [@justcallmecoco](https://github.com/justcallmecoco) and his [Music visualizer](https://www.tindie.com/products/justcallmekoko/music-visualizer/) 
+  - [@justcallmecoco](https://github.com/justcallmecoco) for providing motivation with the [Music visualizer](https://www.tindie.com/products/justcallmekoko/music-visualizer/) 
+  - https://github.com/debsahu/ESP32_FFT_Audio_LEDs for confirming the ESP32 compatibility
+  - http://www.instructables.com/id/Arduino-Based-Mini-Audio-Spectrum-Visualizer/ for providing the inspirational code
