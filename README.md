@@ -20,9 +20,13 @@ Proto board Wiring
 
 <img width=512 src=wiring.png>
 
+  - Reset and Strobe are connected to OUTPUT pins on the ESP32.
+  - Left band and Right band are INPUT pins on the ESP32
 
 Credits
 -------
+  - [jollyFactory](https://www.tindie.com/products/nick64/jf-audio-spectrum-visualizer-board-basic-kit/) MSGEQ7 Kit
   - http://www.instructables.com/id/Arduino-Based-Mini-Audio-Spectrum-Visualizer/
   - https://github.com/debsahu/ESP32_FFT_Audio_LEDs
   - https://tronixstuff.files.wordpress.com/2013/01/msgeq7-data-sheet.pdf
+  - [@justcallmecoco](https://github.com/justcallmecoco) and his [Music visualizer](https://www.tindie.com/products/justcallmekoko/music-visualizer/) 
