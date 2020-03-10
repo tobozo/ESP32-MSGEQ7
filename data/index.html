@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='utf-8' />
+<link rel='stylesheet' href='/index.css' />
+</head>
+<body>
+<div>
+  <div class='range-holder' data-freq='63 Hz'><input type='range' value='50'></div>
+  <div class='range-holder' data-freq='160 Hz'><input type='range' value='50'></div>
+  <div class='range-holder' data-freq='400 Hz'><input type='range' value='50'></div>
+  <div class='range-holder' data-freq='1 KHz'><input type='range' value='50'></div>
+  <div class='range-holder' data-freq='2.5KHz'><input type='range' value='50'></div>
+  <div class='range-holder' data-freq='6.25 KHz'><input type='range' value='50'></div>
+  <div class='range-holder' data-freq='16 KHz'><input type='range' value='50'></div>
+</div>
+<script>
+const rangeHolders = document.querySelectorAll('input[type=range]');
+function rangeChangedHandler(event) {
+  const apiurl = '/level/' + event.target.getAttribute('data-index' ) + '/' + event.target.value;
+  top.location = apiurl;
+};
+rangeHolders.forEach( function( rangeHolder, index ) {
+  rangeHolder.setAttribute( 'data-index', index );
+  rangeHolder.addEventListener( 'change', rangeChangedHandler, false );
+});
+</script>
+</body>
+</html>

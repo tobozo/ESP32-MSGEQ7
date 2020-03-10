@@ -1,0 +1,16 @@
+input[type=range] {
+  transform: translate(0.5rem, 160px) rotate( -90deg );
+  transform-origin: center left;
+  position: absolute;
+}
+
+.range-holder {
+  display: inline-block;
+  min-width: 5em;
+  text-align: center;
+  font-size: .55em;
+  font-family: arial;
+}
+[data-freq]::after {
+  content: attr( data-freq );
+}
